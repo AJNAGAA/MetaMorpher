@@ -19,6 +19,6 @@ group = environ.get('GROUP', '-1002128043143')
 GROUP = int(group) if group and id_pattern.search(group) else None
 SUNRISES_PIC= "https://graph.org/file/bd91761f6e938e2e6d23a.jpg"  # Replace with your Telegraph link
 AUTH_USERS = int(os.environ.get("AUTH_USERS", '6469754522'))
-
+PORT = os.environ.get("PORT", "8080")
 
 
